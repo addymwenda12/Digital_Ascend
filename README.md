@@ -1,10 +1,9 @@
-# Welcome to Refresh Bottle
+# Welcome to Digital Ascend
 
-![Refresh Bottle](https://cdn.buymeacoffee.com/uploads/project_updates/2023/09/93d36d4e9e0f8f8ce23188f3628c5ed9.jpg)
 
 ## Overview
 
-Refresh Bottle is not just a landing page; it's a refreshing experience waiting to happen. With a blend of HTML, CSS, and a dash of JavaScript magic courtesy of GSAP animations, this project promises to quench your thirst for captivating web design.
+Digital Ascend is a web application designed to help users expand their reach and drive meaningful engagement with their target audience. It utilizes HTML, CSS, and JavaScript for its core functionality and incorporates GSAP (GreenSock Animation Platform) for animation effects.
 
 ## Features
 
@@ -20,12 +19,12 @@ Refresh Bottle is not just a landing page; it's a refreshing experience waiting 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/addymwenda12/Refreshing_Bottle.git
+   git clone https://github.com/addymwenda12/Digital_Ascend.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd Refreshing_Bottle
+   cd Digital_Ascend
    ```
 3. Open `index.html` in your preferred web browser.
 
@@ -53,4 +52,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Questions, feedback, or just want to share your refreshing ideas? Drop us a line at muneneaddy@gmail.com.
 
-Thank you for choosing Refresh Bottle! Cheers to a refreshing online experience! 🌊💧
+## Acknowledgements
+
+- Special thanks to the creators of GSAP for providing a powerful animation platform.
+- Thanks to the FontAwesome team for their collection of high-quality icons.

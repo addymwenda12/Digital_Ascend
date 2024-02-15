@@ -4,53 +4,131 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
   <!--Google Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
-  <!--Font Awesome Icons-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <title>Refresh Bottles</title>
+  <title>Digital Ascend</title>
 </head>
 <body>
-  <header>
-    <div class="preloader">
-      <i class="fas fa-rotate-right"></i>
-    </div>
-    <img src="./bottle.png" class="bg-image">
+  <section class="hero">
     <div class="container">
-      <nav class="menu">
-        <a href="#">Home</a>
-        <a href="#">Bottles</a>
-        <a href="#">About</a>
-      </nav>
-      <a href="#" class="btn">Learn More</a>
-      <div class="content">
+      <img src="./img/banner.jpg" class="bg-image">
+      <h1>Digital Ascend</h1>
+      <p>Crafting Digital Excellence for Lasting Impressions: Partner with DigitalAscend to Elevate Your Brand and Flourish in the Dynamic Landscape of Online Success.</p>
+    </div>
+    <div class="mouse-scroll"></div>
+    </div>
+  </section>
+  
+  <section id="services" class="services">
+    <div class="container">
+      <div>
         <div class="title">
-          <p class="brand">
-            <i class="fa fa-refresh"></i>
-          </p>
-          <h1>Refresh</h1>
-          <h2>Bottles</h2>
-        </div>
-        <div class="social">
-          <a href="#">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-github"></i>
-          </a>
+          <h2>The Services We Provide</h2>
+          <p>Our comprehensive suite of services is designed to elevate your brand, expand your reach, and drive meaningful engagement with your target audience. </p>
         </div>
       </div>
+      <div class="cards">
+        <div class="card">
+          <i class="fab fa-searchengin"></i>
+          <h3>SEO Services</h3>
+          <p>
+            Our SEO services are designed to boost your online visibility and drive organic traffic to your website. We employ a data-driven approach to optimize your website's content, meta tags, and technical aspects. 
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="card">
+          <i class="fab fa-instagram"></i>
+          <h3>Social Media Marketing</h3>
+          <p>
+            With our social media marketing and management services, we help you harness the power of popular social platforms to connect with your target audience and build brand awareness. 
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="card">
+          <i class="fas fa-tasks"></i>
+          <h3>Blog Management</h3>
+          <p>
+            Content is king in the digital world. We craft engaging and informative content that resonates with your audience, whether it's blog articles, infographics, videos, or podcasts. 
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <a href="#" class="link">
+          <i class="fas fa-phone"></i>
+          <span>Call For Detailed Information</span>
+        </a>
+      </div>
     </div>
-  </header>
-  
-  <!--GSAP CDN-->
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="column">
+        <h2>Our Projects</h2>
+        <p>
+          Our portfolio is a testament to the dynamic solutions we've crafted for our clients, each project a unique story of challenges conquered and brands revitalized.
+        </p>
+        <div class="image"><img src="./img/project1.jpg"></div>
+        <p>
+          From redefining brand identities to mastering SEO landscapes and curating captivating content, our portfolio reflects the diverse expertise we bring to the table. Explore these snapshots of success, where collaboration and creativity converge to shape compelling narratives and deliver tangible results. 
+        </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+     <div class="column">
+      <div class="image"><img src="./img/project2.jpg"></div>
+      <div class="image"><img src="./img/project3.jpg"></div>
+     </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <h2>Let's Talk</h2>
+      <p>Ready to take the leap into digital success? Our team at DigitalAscend is eager to collaborate with you! Whether you're looking to refine your online presence, optimize your search engine visibility, or engage your audience on social media, we've got the expertise to make it happen.</p>
+      <a href="#" class="btn">Write Message</a>
+      <div class="social-media">
+        <a href="https://www.github.com/addymwenda12" target="_blank">
+          <div>
+            <h3>GitHub</h3>
+            <p>@addymwenda12</p>
+          </div>
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/AddyMwenda" target="_blank">
+          <div>
+            <h3>X</h3>
+            <p>@Addy Munene</p>
+          </div>
+          <i class="fa-brands fa-x-twitter fa-xl"></i>
+        </a>
+        <a href="https://instagram.com/beingaddy_" target="_blank">
+          <div>
+            <h3>Instagram</h3>
+            <p>@beingaddy_</p>
+          </div>
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <p>&copy; All Rights Reserved - DigitalAscend.</p>
+    </div>
+  </footer>
+
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <div class="tracker"></div>
+
+  <!--GSAP-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <!--GSAP Scroll Trigger-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <!--Lenis CDN-->
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script> 
   <script src="main.js"></script>
 </body>
 </html>
